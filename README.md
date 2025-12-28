@@ -1,5 +1,5 @@
 # data-entry-administrative-mock-project
-## MOCK PROJECT
+# MOCK PROJECT
 # Customer Records Data Entry & Administrative Operations Project
 
 # Role Simulated:
@@ -23,7 +23,7 @@ The project also demonstrates hands-on experience with CRM systems, Excel-based 
 
 5. Generate reports to support administrative decision-making
 
-## 🗂️ Dataset Description
+# 🗂️ Dataset Description
 
 # The simulated dataset contained 1,200+ records, including:
 
@@ -49,7 +49,7 @@ x. CRM Status
 
 xi. Notes / Remarks
 
-## 🛠️ Tools Used
+# 🛠️ Tools Used
 
 1. Microsoft Excel – data entry, validation, formulas, sorting, filters
 
@@ -61,7 +61,7 @@ xi. Notes / Remarks
 
 3. PDF tools – document handling and organization
 
-## ✅ Tasks Performed
+# ✅ Tasks Performed
 # 1. Data Entry & Record Management
 
 Entered customer and order data into Excel and CRM systems
@@ -128,7 +128,7 @@ Error rates
 
 Order status distribution
 
-## 📊 Key Metrics & Results
+# 📊 Key Metrics & Results
 
 1. Accuracy Rate: 99.6%
 
@@ -140,7 +140,7 @@ Order status distribution
 
 5. Data Consistency: Maintained across CRM and spreadsheets
 
-## 📦 Deliverables
+# 📦 Deliverables
 
 1. Cleaned and validated Excel dataset
 
@@ -152,7 +152,7 @@ Order status distribution
 
 5. Organized cloud-based document structure
 
-## 💡 Skills Demonstrated
+# 💡 Skills Demonstrated
 
 1. High-speed, high-accuracy data entry
 
