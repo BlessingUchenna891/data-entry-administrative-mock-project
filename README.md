@@ -1,70 +1,68 @@
 # data-entry-administrative-mock-project
-MOCK PROJECT
-Customer Records Data Entry & Administrative Operations Project
+## MOCK PROJECT
+# Customer Records Data Entry & Administrative Operations Project
 
-Role Simulated:
+# Role Simulated:
 Data Entry Specialist | Administrative Support (Remote)
 
-📌 Project Overview
+# 📌 Project Overview
 
 This mock project simulates a real-world remote data entry and administrative support role. The objective was to accurately enter, validate, clean, and manage customer and operational records while meeting productivity, accuracy, and confidentiality standards.
 
 The project also demonstrates hands-on experience with CRM systems, Excel-based data management, reporting, and performance tracking.
 
-🎯 Project Objectives
+# 🎯 Project Objectives
 
-Enter high-volume customer and transaction data with 98–100% accuracy
+1. Enter high-volume customer and transaction data with 98–100% accuracy
 
-Clean and validate raw datasets to eliminate errors and duplicates
+2. Clean and validate raw datasets to eliminate errors and duplicates
 
-Maintain organized digital records and administrative documentation
+3. Maintain organized digital records and administrative documentation
 
-Track productivity and performance metrics
+4. Track productivity and performance metrics
 
-Generate reports to support administrative decision-making
+5. Generate reports to support administrative decision-making
 
-🗂️ Dataset Description
+## 🗂️ Dataset Description
 
-The simulated dataset contained 1,200+ records, including:
+# The simulated dataset contained 1,200+ records, including:
 
-Customer ID
+i. Customer ID
 
-Full Name
+ii. Full Name
 
-Email Address
+iii. Email Address
 
-Phone Number
+iv. Phone Number
 
-Location
+v. Location
 
-Order ID
+vi. Order ID
 
-Order Date
+vii. Order Date
 
-Order Status
+viii. Order Status
 
-Assigned Support Agent
+ix. Assigned Support Agent
 
-CRM Status
+x. CRM Status
 
-Notes / Remarks
+xi. Notes / Remarks
 
-🛠️ Tools Used
+## 🛠️ Tools Used
 
-Microsoft Excel – data entry, validation, formulas, sorting, filters
+1. Microsoft Excel – data entry, validation, formulas, sorting, filters
 
-Google Sheets – collaboration and cloud storage
+2. CRM Tool – mock CRM / spreadsheet-based CRM
 
-CRM Tool – mock CRM / spreadsheet-based CRM
+3. Power BI – basic dashboards
 
-Power BI – basic dashboards
+4. SQL (Basic) – data validation queries
 
-SQL (Basic) – data validation queries
+3. PDF tools – document handling and organization
 
-PDF tools – document handling and organization
-
-✅ Tasks Performed
-1. Data Entry & Record Management
+## ✅ Tasks Performed
+# 1. Data Entry & Record Management
 
 Entered customer and order data into Excel and CRM systems
 
@@ -74,55 +72,55 @@ Updated existing records based on new information
 
 Processed an average of 80–120 entries per hour
 
-2. Data Validation & Cleaning
+# 2. Data Validation & Cleaning
 
-Identified and corrected:
+# Identified and corrected:
 
-Duplicate records
+a. Duplicate records
 
-Missing values
+b. Missing values
 
-Formatting inconsistencies
+c. Formatting inconsistencies
 
-Invalid contact details
+d. Invalid contact details
 
-Used Excel formulas and filters for validation
+e. Used Excel formulas and filters for validation
 
-Applied accuracy checks to prevent recurring errors
+f. Applied accuracy checks to prevent recurring errors
 
-3. CRM Data Management
+# 3. CRM Data Management
 
-Created and updated customer profiles in the CRM
+a. Created and updated customer profiles in the CRM
 
-Assigned order statuses and support agents
+b. Assigned order statuses and support agents
 
-Maintained CRM notes and interaction history
+c. Maintained CRM notes and interaction history
 
-Ensured data consistency between CRM and spreadsheets
+d. Ensured data consistency between CRM and spreadsheets
 
-4. Administrative Support
+# 4. Administrative Support
 
-Organized digital documents and PDFs
+a. Organized digital documents and PDFs
 
-Maintained structured folder systems in cloud storage
+b. Maintained structured folder systems in cloud storage
 
-Prepared weekly administrative summaries
+c. Prepared weekly administrative summaries
 
-Supported scheduling and record tracking
+d. Supported scheduling and record tracking
 
-5. Reporting & Performance Tracking
+# 5. Reporting & Performance Tracking
 
-Created Excel reports showing:
+a. Created Excel reports showing:
 
-Daily entries completed
+b. Daily entries completed
 
-Accuracy rate
+c. Accuracy rate
 
-Error correction frequency
+d. Error correction frequency
 
-Turnaround time
+e. Turnaround time
 
-Built a simple Power BI dashboard to track:
+e. Built a simple Power BI dashboard to track:
 
 Productivity trends
 
@@ -130,42 +128,42 @@ Error rates
 
 Order status distribution
 
-📊 Key Metrics & Results
+## 📊 Key Metrics & Results
 
-Accuracy Rate: 99.6%
+1. Accuracy Rate: 99.6%
 
-Average Speed: 95 entries/hour
+2. Average Speed: 95 entries/hour
 
-Error Reduction: 30% after validation rules
+3. Error Reduction: 30% after validation rules
 
-On-Time Task Completion: 100%
+4. On-Time Task Completion: 100%
 
-Data Consistency: Maintained across CRM and spreadsheets
+5. Data Consistency: Maintained across CRM and spreadsheets
 
-📦 Deliverables
+## 📦 Deliverables
 
-Cleaned and validated Excel dataset
+1. Cleaned and validated Excel dataset
 
-CRM data records
+2. CRM data records
 
-Weekly productivity and accuracy reports
+3. Weekly productivity and accuracy reports
 
-Power BI performance dashboard
+4. Power BI performance dashboard
 
-Organized cloud-based document structure
+5. Organized cloud-based document structure
 
-💡 Skills Demonstrated
+## 💡 Skills Demonstrated
 
-High-speed, high-accuracy data entry
+1. High-speed, high-accuracy data entry
 
-CRM and spreadsheet data management
+2. CRM and spreadsheet data management
 
-Administrative documentation and record keeping
+3. Administrative documentation and record keeping
 
-Data validation and error resolution
+4. Data validation and error resolution
 
-Productivity and performance monitoring
+5. Productivity and performance monitoring
 
-Confidential data handling
+6. Confidential data handling
 
-Remote work discipline and communication
+7. Remote work discipline and communication
