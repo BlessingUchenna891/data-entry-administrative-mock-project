@@ -25,7 +25,7 @@ The project also demonstrates hands-on experience with CRM systems, Excel-based 
 
 # 🗂️ Dataset Description
 
-# The simulated dataset contained 1,200+ records, including:
+The simulated dataset contained 1,200+ records, including:
 
 i. Customer ID
 
@@ -74,7 +74,7 @@ Processed an average of 80–120 entries per hour
 
 # 2. Data Validation & Cleaning
 
-# Identified and corrected:
+Identified and corrected:
 
 a. Duplicate records
 
