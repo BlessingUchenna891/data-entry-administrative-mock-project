@@ -92,8 +92,9 @@ NOT(ISNUMBER(FIND(".",MID(C2,FIND("@",C2)+1,99))))),C2&".com",C2)
 c. To Flag rows that still fail after cleaning as invalid, I cleaned and validated email records using Excel string functions, implementing post-cleaning validation logic to flag residual invalid entries for manual review, improving CRM data integrity:  =IF(AND(D2<>"",LEN(D2)-LEN(SUBSTITUTE(D2,"@",""))=1,
 ISNUMBER(FIND("@",D2)),NOT(ISNUMBER(FIND(".",LEFT(D2,FIND("@",D2)-1)))),ISNUMBER(FIND(".",MID(D2,FIND("@",D2)+1,99)))),"Valid","Invalid")
 
-
-d. After normalizing local phone numbers, I applied validation logic to convert only valid 10-digit entries into international format by appending the country code, ensuring CRM compatibility: 
+d. I invalidated all the phone numbers containing alphabets using excel formula: =IF(COUNT(SEARCH({"A","B","C","D","E","F","G","H","I","J","K","L","M",
+"N","O","P","Q","R","S","T","U","V","W","X","Y","Z"},D2))>0,"Invalid","Valid").
+After normalizing local phone numbers, I applied validation logic to convert only valid 10-digit entries into international format by appending the country code, ensuring CRM compatibility: 
 =IF(AND(LEN(D2)=10,ISNUMBER(D2)),"+234"&D2,"")
  After that, I copied the cleaned column, pasted *Values* over the original phone column and went ahead to delete the helper column.
 
