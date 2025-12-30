@@ -76,21 +76,33 @@ Processed an average of 80–120 entries per hour
 
 I cleaned and validated 1,250 customer records by resolving invalid emails, phone numbers, duplicate email addresses, inconsistent text casing, and date formatting issues using Excel formulas, filters, and data validation tools:
 
-a. I used Excel string functions to clean email addresses by removing disallowed characters from the username portion while preserving domain integrity, ensuring CRM-compatible formatting.
+a. I used Excel string functions to clean email addresses by removing disallowed characters from the username portion while preserving domain integrity, ensuring CRM-compatible formatting.  =IFERROR(
+SUBSTITUTE(
+LEFT(C2,FIND("@",C2)-1),
+".",
+""
+)
+& MID(C2,FIND("@",C2),LEN(C2)),C2)
 
-b. I implemented Excel logic to auto-correct missing domain extensions by appending ".com" only when an email lacked a valid suffix, reducing manual corrections during CRM imports.
 
-c. To Flag rows that still fail after cleaning as invalid, I cleaned and validated email records using Excel string functions, implementing post-cleaning validation logic to flag residual invalid entries for manual review, improving CRM data integrity.
+b. Assuming .com is my, I implemented Excel logic to auto-correct missing domain extensions by appending ".com" only when an email lacked a valid suffix, reducing manual corrections during CRM imports.  =IF(AND(C2<>"",ISNUMBER(FIND("@",C2)),
+NOT(ISNUMBER(FIND(".",MID(C2,FIND("@",C2)+1,99))))),C2&".com",C2)
 
-d. I standardized phone numbers by validating local formats and converting them to international format using Excel logic, ensuring CRM-ready phone data and reducing import errors. After that, I copied the cleaned column, pasted *Values* over the original phone column and went ahead to delete the helper column
 
-e. I verified date integrity using ISNUMBER and standardized display formats using Excel’s date formatting to ensure consistency across reports and CRM imports.
+c. To Flag rows that still fail after cleaning as invalid, I cleaned and validated email records using Excel string functions, implementing post-cleaning validation logic to flag residual invalid entries for manual review, improving CRM data integrity:  =IF(AND(D2<>"",LEN(D2)-LEN(SUBSTITUTE(D2,"@",""))=1,
+ISNUMBER(FIND("@",D2)),NOT(ISNUMBER(FIND(".",LEFT(D2,FIND("@",D2)-1)))),ISNUMBER(FIND(".",MID(D2,FIND("@",D2)+1,99)))),"Valid","Invalid")
 
-f. I Validated order dates by distinguishing numeric Excel dates from text-based dates, converting valid DD/MM/YYYY strings, and blanking invalid or malformed entries using nested Excel logic, ensuring consistency for reporting and CRM imports.
 
-g. Safely deduplicated the 1250 records by the  email address column as the unique identifier. Out of the 1250 records, 1150 duplicate records were removed and just 100 unique records were preserved.
+d. After normalizing local phone numbers, I applied validation logic to convert only valid 10-digit entries into international format by appending the country code, ensuring CRM compatibility: 
+=IF(AND(LEN(D2)=10,ISNUMBER(D2)),"+234"&D2,"")
+ After that, I copied the cleaned column, pasted *Values* over the original phone column and went ahead to delete the helper column.
 
-h. *Applied accuracy checks to prevent recurring errors:* Standardized validation outputs by trimming possible whitespace and normalizing text values prior to calculating date, email address and phone number accuracy, ensuring consistent and reliable quality metrics.
+e. I Validated order dates by distinguishing numeric Excel dates from text-based dates, converting valid DD/MM/YYYY strings, and blanking invalid or malformed entries using nested Excel logic, ensuring consistency for reporting and CRM imports.
+
+f. Safely deduplicated the 1250 records by the  email address column as the unique identifier. Out of the 1250 records, 1150 duplicate records were removed and just 100 unique records were preserved.
+
+g. *Applied accuracy checks to prevent recurring errors:* Standardized validation outputs by trimming possible whitespace and normalizing text values prior to calculating date, email address and phone number accuracy, ensuring consistent and reliable quality metrics: =COUNTIF(Validity Range,"VALID") /
+(COUNTIF(Validity Range,"VALID")+COUNTIF(Validity Range,"INVALID"))
 
 # 3. CRM Data Management
 
