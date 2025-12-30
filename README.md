@@ -74,19 +74,23 @@ Processed an average of 80–120 entries per hour
 
 # 2. Data Validation & Cleaning
 
-Identified and corrected:
+I cleaned and validated 1,250 customer records by resolving invalid emails, phone numbers, duplicate email addresses, inconsistent text casing, and date formatting issues using Excel formulas, filters, and data validation tools:
 
-a. Duplicate records
+a. I used Excel string functions to clean email addresses by removing disallowed characters from the username portion while preserving domain integrity, ensuring CRM-compatible formatting.
 
-b. Missing values
+b. I implemented Excel logic to auto-correct missing domain extensions by appending ".com" only when an email lacked a valid suffix, reducing manual corrections during CRM imports.
 
-c. Formatting inconsistencies
+c. To Flag rows that still fail after cleaning as invalid, I cleaned and validated email records using Excel string functions, implementing post-cleaning validation logic to flag residual invalid entries for manual review, improving CRM data integrity.
 
-d. Invalid contact details
+d. I standardized phone numbers by validating local formats and converting them to international format using Excel logic, ensuring CRM-ready phone data and reducing import errors. After that, I copied the cleaned column, pasted *Values* over the original phone column and went ahead to delete the helper column
 
-e. Used Excel formulas and filters for validation
+e. I verified date integrity using ISNUMBER and standardized display formats using Excel’s date formatting to ensure consistency across reports and CRM imports.
 
-f. Applied accuracy checks to prevent recurring errors
+f. I Validated order dates by distinguishing numeric Excel dates from text-based dates, converting valid DD/MM/YYYY strings, and blanking invalid or malformed entries using nested Excel logic, ensuring consistency for reporting and CRM imports.
+
+g. Safely deduplicated the 1250 records by the  email address column as the unique identifier. Out of the 1250 records, 1150 duplicate records were removed and just 100 unique records were preserved.
+
+h. *Applied accuracy checks to prevent recurring errors:* Standardized validation outputs by trimming possible whitespace and normalizing text values prior to calculating date, email address and phone number accuracy, ensuring consistent and reliable quality metrics.
 
 # 3. CRM Data Management
 
@@ -110,17 +114,15 @@ d. Supported scheduling and record tracking
 
 # 5. Reporting & Performance Tracking
 
-a. Created Excel reports showing:
+*Created Excel reports showing:*
 
-b. Daily entries completed
+a. Daily entries completed
 
-c. Accuracy rate
+b. Accuracy rate
 
-d. Error correction frequency
+c. Turnaround time
 
-e. Turnaround time
-
-e. Built a simple Power BI dashboard to track:
+*d. Built a simple Power BI dashboard to track:*
 
 Productivity trends
 
