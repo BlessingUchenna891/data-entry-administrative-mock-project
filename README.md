@@ -12,9 +12,8 @@ This mock project simulates a real-world remote data entry and administrative su
 The project also demonstrates hands-on experience with CRM systems, Excel-based data management, reporting, and performance tracking.
 
 # 🎯 Project Objectives
-
-1. Enter high-volume customer and transaction data with 98–100% accuracy
-
+1. Processed and validated 1,250 customer records at an average rate of ~100 records per hour across focused review sessions, including error detection, correction, and quality checks.
+   
 2. Clean and validate raw datasets to eliminate errors and duplicates
 
 3. Maintain organized digital records and administrative documentation
