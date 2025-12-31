@@ -105,6 +105,8 @@ f. Safely deduplicated the 1250 records by the  email address column as the uniq
 g. *Applied accuracy checks to prevent recurring errors:* Standardized validation outputs by trimming possible whitespace and normalizing text values prior to calculating date, email address and phone number accuracy, ensuring consistent and reliable quality metrics: =COUNTIF(Validity Range,"VALID") /
 (COUNTIF(Validity Range,"VALID")+COUNTIF(Validity Range,"INVALID"))
 
+h. Productivity metrics were estimated using timed data-entry simulations to mirror real-world workflows.
+
 # 3. CRM Data Management
 
 a. Created and updated customer profiles in the CRM
