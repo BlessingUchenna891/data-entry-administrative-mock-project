@@ -12,7 +12,7 @@ This mock project simulates a real-world remote data entry and administrative su
 The project also demonstrates hands-on experience with CRM systems, Excel-based data management, reporting, and performance tracking.
 
 # 🎯 Project Objectives
-1. Processed and validated 1,250 customer records at an average rate of ~100 records per hour across focused review sessions, including error detection, correction, and quality checks.
+1. Processed and validated 1,250 customer records at an average rate of 250 records per hour across focused review sessions, including error detection, correction, and quality checks.
    
 2. Clean and validate raw datasets to eliminate errors and duplicates
 
@@ -56,9 +56,7 @@ xi. Notes / Remarks
 
 3. Power BI – basic dashboards
 
-4. SQL (Basic) – data validation queries
-
-3. PDF tools – document handling and organization
+4. PDF tools – document handling and organization
 
 # ✅ Tasks Performed
 # 1. Data Entry & Record Management
@@ -69,7 +67,7 @@ Maintained consistent formatting and naming conventions
 
 Updated existing records based on new information
 
-Processed an average of 80–120 entries per hour
+Processed an average of 250 records per hour
 
 # 2. Data Validation & Cleaning
 
@@ -146,7 +144,7 @@ Order status distribution
 
 # 📊 Key Metrics & Results
 
-1. Accuracy Rate: 99.6%
+1. Accuracy Rate: 99%
 
 2. Average Speed: 95 entries/hour
 
